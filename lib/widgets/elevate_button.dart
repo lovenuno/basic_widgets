@@ -12,7 +12,7 @@ class ElevatedButtonWidgetExample extends StatelessWidget{
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.red,
             ),
-            child: Text('Elevated button'),
+            child: const Text('Elevated button'),
           ),
         ),
       ),
