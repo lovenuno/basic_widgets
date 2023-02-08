@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 // import 'package:basic_widgets/widgets/elevate_button.dart';
 // import 'package:basic_widgets/widgets/icon_button.dart';
 import 'package:basic_widgets/widgets/gesture_detector.dart';
+import 'package:basic_widgets/widgets/floating_action_button_widget.dart';
 
 void main(){
   runApp(MyApp());
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget{
           // child: OutlinedButtonWidgetExample(),
           // child: ElevatedButtonWidgetExample(),
           // child: IconButtonWidgetExample(),
-          child: GestureDetectorWidgetExample(),
+          //child: GestureDetectorWidgetExample(),
+          child: FloatingActionButtonExample(),
         ),
       ),
     );
